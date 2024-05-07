@@ -338,8 +338,7 @@
 		46A04FC6931B56743E4B7D63 /* ContainerTests.GraphCaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTests.GraphCaching.swift; sourceTree = "<group>"; };
 		47328731EED63322AD76FB3A /* Circularity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circularity.swift; sourceTree = "<group>"; };
 		4744C3ABBA9A8A585C726883 /* ContainerTests.DebugHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTests.DebugHelper.swift; sourceTree = "<group>"; };
-		4DD267E12BEA290800523417 /* Swinject-visionOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Swinject-visionOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DD267E22BEA290800523417 /* Swinject-iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Swinject-iOS copy-Info.plist"; path = "/Users/talron/Work/Swinject/Swinject-iOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		4DD267E12BEA290800523417 /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		515B0F492BC9AF5D00C4E24F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		516EB7F72BDC124100FF78D2 /* ContainerTests.Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTests.Speed.swift; sourceTree = "<group>"; };
 		51F2541A2BC5A2EF003E3BCD /* ReadWriteLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadWriteLock.swift; sourceTree = "<group>"; };
@@ -476,7 +475,7 @@
 				09FC792715B1658721F76885 /* SwinjectTests.xctest */,
 				0DC67CB109091002AB433A46 /* SwinjectTests.xctest */,
 				0CA449690AE00F6300DE8ACA /* SwinjectTests.xctest */,
-				4DD267E12BEA290800523417 /* Swinject-visionOS.framework */,
+				4DD267E12BEA290800523417 /* Swinject.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -488,7 +487,6 @@
 				D026A6699A2A932511D29E14 /* Sources */,
 				1281EF9C9707360B39DD4C11 /* SwinjectTests */,
 				8EB6E58A3F28FAEBBC372598 /* Products */,
-				4DD267E22BEA290800523417 /* Swinject-iOS copy-Info.plist */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -618,7 +616,7 @@
 			);
 			name = "Swinject-visionOS";
 			productName = "Swinject-iOS";
-			productReference = 4DD267E12BEA290800523417 /* Swinject-visionOS.framework */;
+			productReference = 4DD267E12BEA290800523417 /* Swinject.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		978D2C823AE8C4BC19CF6644 /* SwinjectTests-watchOS */ = {
@@ -1510,7 +1508,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.Swinject-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Swinject;
 				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = xros;
 				SKIP_INSTALL = YES;
@@ -1541,7 +1539,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.Swinject-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Swinject;
 				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = xros;
 				SKIP_INSTALL = YES;
