@@ -9,7 +9,7 @@ options:
     tvOS: '12.0'
     iOS: '12.0'
     watchOS: '4.0'
-    visionOS: '1.0'
+    visionOS: '1.1'
 fileGroups:
   - Playgrounds/Sample-iOS.playground
 targets:
