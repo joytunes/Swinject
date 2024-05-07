@@ -4,7 +4,7 @@
 
 // no universal UUID impl on Linux
 
-#if os(iOS) || os(macOS) || os(tvOS) || os(watchOS)
+#if os(iOS) || os(macOS) || os(tvOS) || os(watchOS) || os(visionOS)
 import Foundation
 
 /// Unique identifier of an object graph during a resolution process.
